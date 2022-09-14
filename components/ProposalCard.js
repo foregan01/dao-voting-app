@@ -107,7 +107,7 @@ const ProposalCard = ({ proposal, data }) => {
                             return (
                                 <div key={Math.random()}>
                                     <div>
-                                        {vote.label}: {Math.trunc(voteCount)} APE Coins
+                                        {vote.label}: {Math.trunc(voteCount)} OGM Coins
                                     </div>
                                 </div>
                             )
@@ -165,7 +165,7 @@ const ProposalCard = ({ proposal, data }) => {
                             return (
                                 <div key={Math.random()}>
                                     <div>
-                                        {vote.label}: {Math.trunc(vote.count)} APE Coins
+                                        {vote.label}: {Math.trunc(vote.count)}   OGM Coins
                                     </div>
                                 </div>
                             )
